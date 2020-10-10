@@ -1,0 +1,10 @@
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+
+#resume-margin-top {
+    margin-top: 10em;
+}
+
+#resume {
+    width: 200px;
+    height: 200px;
+}

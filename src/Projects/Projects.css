@@ -1,0 +1,55 @@
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+
+@keyframes fade-in-from-left {
+    from { opacity: 0; right: 100px; }
+    to { opacity: 1; right: 0px; }
+}
+
+@keyframes fade-in-from-right {
+    from { opacity: 0; left: 100px; }
+    to { opacity: 1; left: 0px; }
+}
+
+
+#animation-fade-in-from-left {
+    background-color: white;
+    animation-name: fade-in-from-left;
+    animation-duration: 1s;
+}
+
+#animation-fade-in-from-left-delay-1 {
+    background-color: white;
+    animation-name: fade-in-from-left;
+    animation-duration: 2s;
+    
+}
+
+#animation-fade-in-from-left-delay-2 {
+    background-color: white;
+    animation-name: fade-in-from-left;
+    animation-duration: 3s;
+
+}
+
+#animation-fade-in-from-right {
+    background-color: white;
+    animation-name: fade-in-from-right;
+    animation-duration: 1s;
+}
+
+#animation-fade-in-from-right-delay-1 {
+    background-color: white;
+    animation-name: fade-in-from-right;
+    animation-duration: 2s;
+
+}
+
+#animation-fade-in-from-right-delay-2 {
+    background-color: white;
+    animation-name: fade-in-from-right;
+    animation-duration: 3s;
+
+}
+
+#element1 {display:inline-block;margin-right:1em; } 
+#element2 {display:inline-block; } 

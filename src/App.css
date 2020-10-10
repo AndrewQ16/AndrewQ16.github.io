@@ -1,0 +1,18 @@
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+
+
+/*
+Overrides the nav-link of bootstrap by coming after the decleration
+*/
+
+#nav-bg {
+  background-color: #ff6863;
+}
+
+.nav-link {
+  color: white;
+}
+
+.img-space {
+  padding-right: 5px;
+}

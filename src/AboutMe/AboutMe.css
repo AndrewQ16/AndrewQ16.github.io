@@ -1,0 +1,28 @@
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+
+
+@keyframes fade-in-from-top {
+    from { opacity: 0; top: 50px; }
+    to { opacity: 1; top: 0px; }
+}
+
+
+
+.animation-fade-in-from-top {
+    background-color: white;
+    animation-name: fade-in-from-top;
+    animation-duration: 1s;
+}
+
+
+
+
+#temp-bg {
+    background-color: aqua;
+}
+
+#pfp {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
